@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{78B18E67-FB5D-41E7-9496-091E143E5353}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{C73C83F5-5CDE-4BA4-B1B7-2C42D065E2E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{8F374455-7DC3-4B1B-90A9-19C1CCC83BAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{4FA746CB-18DF-4FC3-8B60-D1AE9341BD72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{08034322-220A-4556-9B83-D1D6937176DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AnalysisEngine", "AnalysisEngine", "{FDE186A8-C375-40D6-89B2-2B1B19BB7FD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalysisEngine.Infrastructure", "AnalysisEngine.Infrastructure\AnalysisEngine.Infrastructure.csproj", "{A00F13B5-7E52-49DE-B444-7F6DFFB93FBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalysisEngine.Service", "AnalysisEngine.Service\AnalysisEngine.Service.csproj", "{0EEAB8DF-04FF-48D2-B093-615EC1964F22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalysisEngine.Models", "AnalysisEngine.Models\AnalysisEngine.Models.csproj", "{DD4E7EC2-7711-4595-9FB3-D4EFA0018CF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalysisEngine.Repositories", "AnalysisEngine.Repositories\AnalysisEngine.Repositories.csproj", "{3DCBB040-A3E1-4071-8DE2-3B104A6D4C8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2C24BBBE-100B-459E-AD74-89A6027977AD}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yaml = docker-compose.yaml
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{1AA27CEC-CBAC-4AEF-A382-8B71D018306C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78B18E67-FB5D-41E7-9496-091E143E5353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78B18E67-FB5D-41E7-9496-091E143E5353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78B18E67-FB5D-41E7-9496-091E143E5353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78B18E67-FB5D-41E7-9496-091E143E5353}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C73C83F5-5CDE-4BA4-B1B7-2C42D065E2E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C73C83F5-5CDE-4BA4-B1B7-2C42D065E2E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C73C83F5-5CDE-4BA4-B1B7-2C42D065E2E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C73C83F5-5CDE-4BA4-B1B7-2C42D065E2E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F374455-7DC3-4B1B-90A9-19C1CCC83BAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F374455-7DC3-4B1B-90A9-19C1CCC83BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F374455-7DC3-4B1B-90A9-19C1CCC83BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F374455-7DC3-4B1B-90A9-19C1CCC83BAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FA746CB-18DF-4FC3-8B60-D1AE9341BD72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FA746CB-18DF-4FC3-8B60-D1AE9341BD72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FA746CB-18DF-4FC3-8B60-D1AE9341BD72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FA746CB-18DF-4FC3-8B60-D1AE9341BD72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08034322-220A-4556-9B83-D1D6937176DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08034322-220A-4556-9B83-D1D6937176DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08034322-220A-4556-9B83-D1D6937176DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08034322-220A-4556-9B83-D1D6937176DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A00F13B5-7E52-49DE-B444-7F6DFFB93FBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A00F13B5-7E52-49DE-B444-7F6DFFB93FBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A00F13B5-7E52-49DE-B444-7F6DFFB93FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A00F13B5-7E52-49DE-B444-7F6DFFB93FBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EEAB8DF-04FF-48D2-B093-615EC1964F22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EEAB8DF-04FF-48D2-B093-615EC1964F22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EEAB8DF-04FF-48D2-B093-615EC1964F22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EEAB8DF-04FF-48D2-B093-615EC1964F22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD4E7EC2-7711-4595-9FB3-D4EFA0018CF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD4E7EC2-7711-4595-9FB3-D4EFA0018CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD4E7EC2-7711-4595-9FB3-D4EFA0018CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD4E7EC2-7711-4595-9FB3-D4EFA0018CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DCBB040-A3E1-4071-8DE2-3B104A6D4C8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DCBB040-A3E1-4071-8DE2-3B104A6D4C8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DCBB040-A3E1-4071-8DE2-3B104A6D4C8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DCBB040-A3E1-4071-8DE2-3B104A6D4C8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AA27CEC-CBAC-4AEF-A382-8B71D018306C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AA27CEC-CBAC-4AEF-A382-8B71D018306C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AA27CEC-CBAC-4AEF-A382-8B71D018306C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AA27CEC-CBAC-4AEF-A382-8B71D018306C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A00F13B5-7E52-49DE-B444-7F6DFFB93FBC} = {FDE186A8-C375-40D6-89B2-2B1B19BB7FD9}
+		{0EEAB8DF-04FF-48D2-B093-615EC1964F22} = {FDE186A8-C375-40D6-89B2-2B1B19BB7FD9}
+		{DD4E7EC2-7711-4595-9FB3-D4EFA0018CF6} = {FDE186A8-C375-40D6-89B2-2B1B19BB7FD9}
+		{3DCBB040-A3E1-4071-8DE2-3B104A6D4C8F} = {FDE186A8-C375-40D6-89B2-2B1B19BB7FD9}
+	EndGlobalSection
+EndGlobal
